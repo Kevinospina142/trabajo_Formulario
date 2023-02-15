@@ -37,6 +37,7 @@ btnAgregar.onclick = function (){
     }
     if (validateString(name) && validateString(lastName) && op == "profesor"){
         addTeachers(name,lastName,edad)
+        document.getElementById('form').reset();
     }else{
    
         }
