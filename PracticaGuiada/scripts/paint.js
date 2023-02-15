@@ -15,7 +15,7 @@ const paintCardC = (typ) => {
             cloneTemp.querySelector('.data-card').innerHTML = `NOMBRE: ${i.nom.toUpperCase()} APELLIDOS: ${i.ape.toUpperCase()}`;
             cloneTemp.querySelector('.text-promedio').innerHTML = `PROMEDIO ES: ${i.prom}`;
             cloneTemp.querySelector('.text-aprobado').innerHTML = `${checkAvg(i.prom)}`;
-            cloneTemp.querySelector('.text-edad').innerHTML = `EDAD: ${i.edad}`;
+
             fragment.appendChild(cloneTemp);
         }
     }
